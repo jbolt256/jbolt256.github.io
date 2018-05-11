@@ -1,0 +1,28 @@
+body {
+	z-index: 0;
+	background: whitesmoke;
+}
+
+#container {
+	display: block;
+	width: 100%;
+}
+
+#floating { 
+	z-index: 1;
+	position: absolute;
+	left: 20%;
+	top: 4%;
+	border: 1px solid #000;
+	width: 55%;
+	padding: 0% 1% 0% 1%;
+	background: rgb(255,176,0)
+}
+
+.centered { 
+	text-align: center;
+}
+
+h1, h2, h3, p {
+	font-family: Segoe UI;
+}
