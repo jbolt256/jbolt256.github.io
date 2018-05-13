@@ -2,6 +2,25 @@ body {
 	z-index: 0;
 	background: whitesmoke;
 }
+body ::selection {
+	background-color: deepskyblue;
+}
+
+h1, h2, h3, p, a {
+	font-family: Segoe UI;
+}
+
+h1, h2, h3 { 
+	line-height: 50%;
+}
+
+p {
+	font-size: 14px;
+}
+
+.centered { 
+	text-align: center;
+}
 
 #container {
 	display: block;
@@ -11,18 +30,11 @@ body {
 #floating { 
 	z-index: 1;
 	position: absolute;
-	left: 20%;
+	left: 18%;
 	top: 4%;
 	border: 1px solid #000;
-	width: 55%;
-	padding: 0% 1% 0% 1%;
+	width: 60%;
+	padding: 0% 2% 0% 2%;
 	background: rgb(255,176,0)
 }
 
-.centered { 
-	text-align: center;
-}
-
-h1, h2, h3, p {
-	font-family: Segoe UI;
-}
