@@ -1,4 +1,4 @@
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, ul, li {
 	font-family: Segoe UI;
 }
 
@@ -41,4 +41,19 @@ body {
 	width: 90%;
 	padding: 0% 1% 0% 1%;
 	background: rgb(255,176,0)
+}
+
+#mainName { 
+	font-size: 36px;
+}
+
+#links { 
+	font-size: 20px;
+}
+
+#text { 
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }

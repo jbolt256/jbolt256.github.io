@@ -1,25 +1,31 @@
-body {
-	z-index: 0;
-	background: whitesmoke;
-}
-body ::selection {
-	background-color: deepskyblue;
-}
-
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, ul, li {
 	font-family: Segoe UI;
-}
-
-h1, h2, h3 { 
-	line-height: 50%;
 }
 
 p {
 	font-size: 14px;
 }
 
+h1, h2, h3 { 
+	line-height: 50%;
+}
+
+body {
+	z-index: 0;
+	background: whitesmoke;
+}
+
+body ::selection {
+	background-color: deepskyblue;
+}
+
+
 .centered { 
 	text-align: center;
+}
+
+.large {
+	font-size: 20px;
 }
 
 #container {
@@ -34,7 +40,21 @@ p {
 	top: 4%;
 	border: 1px solid #000;
 	width: 60%;
-	padding: 0% 2% 0% 2%;
+	padding: 0% 3% 0% 3%;
 	background: rgb(255,176,0)
 }
 
+#mainName { 
+	font-size: 48px;
+}
+
+#links {
+	font-size: 16px;
+}
+
+#text { 
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
