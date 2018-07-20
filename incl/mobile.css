@@ -1,4 +1,4 @@
-h1, h2, h3, p, a, ul, li {
+h1, h2, h3, p, a, ul, li, tr, th {
 	font-family: Segoe UI;
 }
 
@@ -16,6 +16,10 @@ a {
 
 .centered { 
 	text-align: center;
+}
+
+.centeredBlock {
+	display: block;
 }
 
 .large {
@@ -48,7 +52,7 @@ body {
 }
 
 #links { 
-	font-size: 20px;
+	font-size: 18px;
 }
 
 #text { 

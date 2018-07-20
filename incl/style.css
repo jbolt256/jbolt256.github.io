@@ -1,4 +1,4 @@
-h1, h2, h3, p, a, ul, li {
+h1, h2, h3, p, a, ul, li, tr, th {
 	font-family: Segoe UI;
 }
 
@@ -19,6 +19,9 @@ body ::selection {
 	background-color: deepskyblue;
 }
 
+table {
+	table-layout: fixed;
+}
 
 .centered { 
 	text-align: center;
