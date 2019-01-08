@@ -32,16 +32,24 @@ table {
 }
 
 #container {
-	display: block;
+	display: inline-block;
 	width: 100%;
+}
+
+footer {
+	margin: 0% 0% 0% 46%;
+	font-size: 10pt;
+	color: darkgrey;
+}
+
+footer a {
+	text-decoration: none;
 }
 
 #floating { 
 	z-index: 1;
-	position: absolute;
-	left: 18%;
-	top: 4%;
 	border: 1px solid #000;
+	margin: 2% 0% 0% 18%;
 	width: 60%;
 	padding: 0% 3% 0% 3%;
 	background: rgb(255,176,0)
